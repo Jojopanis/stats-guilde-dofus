@@ -1,7 +1,7 @@
 import requests
+import json
+from tqdm import tqdm
 from bs4 import BeautifulSoup
-
-urls= ['https://www.dofus.com/fr/mmorpg/communaute/annuaires/pages-persos/99753800295-kaygrim','https://www.dofus.com/fr/mmorpg/communaute/annuaires/pages-persos/497379700292-zaridem','https://www.dofus.com/fr/mmorpg/communaute/annuaires/pages-persos/738006100292-bapao']
 
 def generate_headers(url):
     return {
@@ -11,12 +11,12 @@ def generate_headers(url):
 class Server:
 
     def __init__(self, server):
-        self.server = server
-        self.url = self.generate_server_url()
-        self.guilds = self.generate_url_list()
-        self.last_page = self.get_last_page()
+        self.name = server
+        self._url = self._generate_server_url()
+        self.guild_list = self._generate_url_list()
+        self.last_page = self._get_last_page()
 
-    def generate_server_url(self):
+    def _generate_server_url(self):
         servers = {
         'Ombre' : 50,
         'Tal Kasha' : 290,
@@ -25,12 +25,12 @@ class Server:
         'Tylezia' : 293,
         'Hell Mina' : 294,
         'Draconiros' : 295,}
-        return f"https://www.dofus.com/fr/mmorpg/communaute/annuaires/pages-guildes?&server_id={servers[self.server]}"
+        return f"https://www.dofus.com/fr/mmorpg/communaute/annuaires/pages-guildes?&server_id={servers[self.name]}"
     
-    def generate_url_list(self, pages=1):
+    def _generate_url_list(self, pages=1):
         server_list = {}
         for i in range(0,pages):
-            response = requests.get(self.url+f'&page={i+1}', headers=generate_headers(self.url))
+            response = requests.get(self._url+f'&page={i+1}', headers=generate_headers(self._url))
             soup = BeautifulSoup(response.content, 'html.parser').find('tbody').find_all('tr')
             for guild in soup:
                 infos = guild.find_all('td')
@@ -38,37 +38,56 @@ class Server:
         return server_list
     
     def generate_guild(self, guild):
-        return Guild(f"https://www.dofus.com{self.guilds[guild]}/membres")
+        for i,name in enumerate(self.guild_list.keys()):
+            if name == guild:
+                return Guild(list(self.guild_list.items())[i])
 
-    def get_last_page(self):
-        response = requests.get(self.url, headers=generate_headers(self.url))
+    def _get_last_page(self):
+        response = requests.get(self._url, headers=generate_headers(self._url))
         soup = BeautifulSoup(response.content, 'html.parser')
         return int(soup.find('ul', class_='ak-pagination pagination').find_all('li')[-3].text.strip())
 
 class Guild:
     
-    def __init__(self, url):
-        self.url = url
-        self._response = requests.get(url, headers=generate_headers(url))
+    def __init__(self, tuple):
+        self._url = f"https://www.dofus.com{tuple[1]}/membres"
+        self.name = tuple[0]
+        self._response = requests.get(self._url, headers=generate_headers(self._url))
         self._soup = BeautifulSoup(self._response.content, 'html.parser')
+        self.members_list = self.generate_member_list()
 
     def generate_member_list(self):
         member_list = {}
-        # perso = Perso(f"https://www.dofus.com{}")
         for i in self._soup.find('tbody').find_all('tr'):
             member_list[i.find('a').text]= i.find('a')['href']
         return member_list
-
+    
+    def generate_member(self, member):
+        for i,name in enumerate(self.members_list.keys()):
+            if name == member:
+                return Perso(list(self.members_list.items())[i])
+            
+    def generate_json(self):
+        guild_doc = {}
+        for i in tqdm(self.members_list.keys()):
+            member = self.generate_member(i)
+            guild_doc[i] = member.get_infos()
+        with open(f'{self.name.strip()}.json', 'w') as f:
+            json.dump(guild_doc, f, indent=2)
+        return 'Done'
+        
 class Perso:
 
-    def __init__(self, url):
-        self._response = requests.get(url, headers=generate_headers(url))
+    def __init__(self, tuple):
+        self._url = f"https://www.dofus.com{tuple[1]}"
+        self._response = requests.get(self._url, headers=generate_headers(self._url))
         self._soup = BeautifulSoup(self._response.content, 'html.parser')
         self.professions = self.set_professions()
         self.level = self.set_level()
         self.classe = self.set_class()
         self.title = self.set_title()
-        self.name = self.set_name()
+        self.alignment = self.set_alignment()
+        self.name = tuple[0]
 
     def set_professions(self):
         ak_content = self._soup.find_all('div', class_='ak-content')
@@ -84,30 +103,44 @@ class Perso:
         omega = 0
         if self._soup.find(class_='ak-omega-level'):
             omega = 200
-        return int(self._soup.find(class_='ak-directories-level').text.strip()[7:])+omega
+        try:
+            return int(self._soup.find(class_='ak-directories-level').text.strip()[7:])+omega
+        except:
+            return None
     
     def set_class(self):
-        return self._soup.find(class_='ak-directories-breed').text.strip()
+        try:
+            return self._soup.find(class_='ak-directories-breed').text.strip()
+        except:
+            return None
     
     def set_title(self):
-        return self._soup.find(class_='ak-directories-grade').text.strip()
+        try:
+            return self._soup.find(class_='ak-directories-grade').text.strip()
+        except:
+            return None
     
-    def set_name(self):
-        return(self._soup.select_one('div[class*="ak-character-ornament"]').text.strip())
+    def set_alignment(self):
+        try:
+            return self._soup.find(class_='ak-alignment-name').text.strip()
+        except:
+            return None
 
     def get_infos(self):
         return {
-            'name': self.name,
+            # 'name': self.name,
             'title': self.title,
             'class': self.classe,
             'level': self.level,
+            'alignement': self.alignment,
             'professions': self.professions
         }
 
 if __name__ == '__main__':
-    orukam = Server('Orukam')
-    old = orukam.generate_guild('Old Spirit')
-    print(old.generate_member_list())
-
-
-
+    server = Server('Orukam')
+    old = server.generate_guild('Old Spirit')
+    print(old.generate_json())
+    # for i in server.guild_list.keys():
+    #     guild = server.generate_guild(i)
+    #     print(guild.name)
+    #     print(guild.generate_member(list(guild.members_list.keys())[0]).get_infos())
