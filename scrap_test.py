@@ -1,5 +1,6 @@
 import requests
 import json
+from time import sleep
 from tqdm import tqdm
 from bs4 import BeautifulSoup
 
@@ -40,7 +41,7 @@ class Server:
     def generate_guild(self, guild):
         for i,name in enumerate(self.guild_list.keys()):
             if name == guild:
-                return Guild(list(self.guild_list.items())[i])
+                return Guild(list(self.guild_list.items())[i], self.name)
 
     def _get_last_page(self):
         response = requests.get(self._url, headers=generate_headers(self._url))
@@ -49,12 +50,13 @@ class Server:
 
 class Guild:
     
-    def __init__(self, tuple):
+    def __init__(self, tuple, server):
         self._url = f"https://www.dofus.com{tuple[1]}/membres"
         self.name = tuple[0]
         self._response = requests.get(self._url, headers=generate_headers(self._url))
         self._soup = BeautifulSoup(self._response.content, 'html.parser')
         self.members_list = self.generate_member_list()
+        self.server = server
 
     def generate_member_list(self):
         member_list = {}
@@ -72,9 +74,10 @@ class Guild:
         for i in tqdm(self.members_list.keys()):
             member = self.generate_member(i)
             guild_doc[i] = member.get_infos()
-        with open(f'{self.name.strip()}.json', 'w') as f:
+            sleep(1.5)
+        with open(f'{self.server}/{self.name.strip()}.json', 'w') as f:
             json.dump(guild_doc, f, indent=2)
-        return 'Done'
+        return f'{self.name} done'
         
 class Perso:
 
@@ -138,9 +141,9 @@ class Perso:
 
 if __name__ == '__main__':
     server = Server('Orukam')
-    old = server.generate_guild('Old Spirit')
-    print(old.generate_json())
-    # for i in server.guild_list.keys():
-    #     guild = server.generate_guild(i)
-    #     print(guild.name)
-    #     print(guild.generate_member(list(guild.members_list.keys())[0]).get_infos())
+    # old = server.generate_guild('Old Spirit')
+    # print(old.generate_json())
+    for i in server.guild_list.keys():
+        guild = server.generate_guild(i)
+        print(guild.generate_json())
+        # print(guild.generate_member(list(guild.members_list.keys())[0]).get_infos())

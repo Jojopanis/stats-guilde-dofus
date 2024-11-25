@@ -1,0 +1,169 @@
+{
+  "Rev-Love-Dp": {
+    "title": null,
+    "class": "Forgelance",
+    "level": 199,
+    "alignement": null,
+    "professions": {
+      "Alchimiste": 2
+    }
+  },
+  "Tbp-recrute": {
+    "title": null,
+    "class": "Sadida",
+    "level": 258,
+    "alignement": null,
+    "professions": {}
+  },
+  "Je-depouillepas": {
+    "title": null,
+    "class": "Ouginak",
+    "level": 228,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 1,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Rocudo": {
+    "title": null,
+    "class": "Iop",
+    "level": 251,
+    "alignement": null,
+    "professions": {
+      "Alchimiste": 2,
+      "Paysan": 38
+    }
+  },
+  "Heda-Ezpk": {
+    "title": "De cendre et d'ivoire",
+    "class": "Cra",
+    "level": 258,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 2,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 2,
+      "Tailleur": 2,
+      "Paysan": 1,
+      "P\u00eacheur": 1,
+      "Chasseur": 200
+    }
+  },
+  "El-Grande-Heda": {
+    "title": null,
+    "class": "Roublard",
+    "level": 163,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 1,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Judas-X-Versace": {
+    "title": null,
+    "class": "Ouginak",
+    "level": 235,
+    "alignement": null,
+    "professions": {
+      "Alchimiste": 2
+    }
+  },
+  "El-Grande-Mafia": {
+    "title": null,
+    "class": "Pandawa",
+    "level": 293,
+    "alignement": null,
+    "professions": {}
+  },
+  "Mafia-Italiana": {
+    "title": null,
+    "class": "Ecaflip",
+    "level": 86,
+    "alignement": null,
+    "professions": {}
+  },
+  "Nostuff-Et-Fullmeuuf": {
+    "title": null,
+    "class": "Eniripsa",
+    "level": 113,
+    "alignement": null,
+    "professions": {}
+  },
+  "Zaishi-blood-[Mer]": {
+    "title": null,
+    "class": "Ouginak",
+    "level": 1,
+    "alignement": null,
+    "professions": {}
+  },
+  "Judas-Iscariot": {
+    "title": null,
+    "class": "Sram",
+    "level": 200,
+    "alignement": null,
+    "professions": {}
+  },
+  "Cerc-Oueil": {
+    "title": null,
+    "class": "Cra",
+    "level": 65,
+    "alignement": null,
+    "professions": {
+      "Alchimiste": 8
+    }
+  },
+  "Zaishi-Bow": {
+    "title": null,
+    "class": "Cra",
+    "level": 3,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Mineur": 1,
+      "Alchimiste": 1,
+      "Paysan": 1,
+      "P\u00eacheur": 1,
+      "Fa\u00e7onneur": 1
+    }
+  },
+  "Zaishi": {
+    "title": null,
+    "class": "Eniripsa",
+    "level": 1,
+    "alignement": null,
+    "professions": {}
+  },
+  "Zaishi-blood": {
+    "title": "De cendre et d'ivoire",
+    "class": "Pandawa",
+    "level": 324,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 3,
+      "Tailleur": 2,
+      "Paysan": 56,
+      "P\u00eacheur": 10,
+      "Chasseur": 200
+    }
+  },
+  "Zaishi-time": {
+    "title": null,
+    "class": null,
+    "level": null,
+    "alignement": null,
+    "professions": {}
+  }
+}

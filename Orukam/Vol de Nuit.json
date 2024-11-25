@@ -1,0 +1,561 @@
+{
+  "Atsukye": {
+    "title": null,
+    "class": "Eniripsa",
+    "level": 200,
+    "alignement": null,
+    "professions": {}
+  },
+  "Cot-Cot-Poulmouyer": {
+    "title": "Diamant brut - Saison 1",
+    "class": "Feca",
+    "level": 254,
+    "alignement": null,
+    "professions": {}
+  },
+  "Paix-de-plaisir": {
+    "title": "R\u00eaveur d'Osatopia",
+    "class": "Feca",
+    "level": 233,
+    "alignement": null,
+    "professions": {
+      "Alchimiste": 9
+    }
+  },
+  "label-life": {
+    "title": "L'\u00c9lu des Dieux",
+    "class": "Enutrof",
+    "level": 423,
+    "alignement": "brakmar",
+    "professions": {
+      "B\u00fbcheron": 116,
+      "Forgeron": 54,
+      "Sculpteur": 41,
+      "Cordonnier": 164,
+      "Bijoutier": 200,
+      "Mineur": 46,
+      "Alchimiste": 200,
+      "Tailleur": 200,
+      "Paysan": 200,
+      "P\u00eacheur": 26,
+      "Chasseur": 200,
+      "Forgemage": 37,
+      "Sculptemage": 200,
+      "Fa\u00e7onneur": 74,
+      "Cordomage": 200,
+      "Joaillomage": 200,
+      "Costumage": 200,
+      "Bricoleur": 200,
+      "Fa\u00e7omage": 3
+    }
+  },
+  "Tchingtchong-Il": {
+    "title": null,
+    "class": "Feca",
+    "level": 208,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 2,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Monsieur-Propre-Bis": {
+    "title": null,
+    "class": "Forgelance",
+    "level": 207,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 2,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Maitresse-Dufouet": {
+    "title": null,
+    "class": "Osamodas",
+    "level": 212,
+    "alignement": null,
+    "professions": {
+      "Alchimiste": 4,
+      "P\u00eacheur": 1
+    }
+  },
+  "Haut-poil": {
+    "title": "Senior d'Enutrosor",
+    "class": "Feca",
+    "level": 261,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 159,
+      "Forgeron": 43,
+      "Sculpteur": 4,
+      "Cordonnier": 4,
+      "Bijoutier": 4,
+      "Mineur": 37,
+      "Alchimiste": 67,
+      "Tailleur": 119,
+      "Paysan": 200,
+      "P\u00eacheur": 55,
+      "Chasseur": 13,
+      "Forgemage": 6,
+      "Sculptemage": 5,
+      "Fa\u00e7onneur": 11,
+      "Cordomage": 6,
+      "Joaillomage": 3,
+      "Costumage": 65,
+      "Bricoleur": 7
+    }
+  },
+  "Psycho-Akwage": {
+    "title": "Disciple de Menalt",
+    "class": "Sram",
+    "level": 252,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 200,
+      "Forgeron": 200,
+      "Sculpteur": 200,
+      "Cordonnier": 200,
+      "Bijoutier": 200,
+      "Mineur": 200,
+      "Alchimiste": 200,
+      "Tailleur": 200,
+      "Paysan": 200,
+      "P\u00eacheur": 200,
+      "Chasseur": 200,
+      "Forgemage": 200,
+      "Sculptemage": 200,
+      "Fa\u00e7onneur": 172,
+      "Cordomage": 200,
+      "Joaillomage": 200,
+      "Costumage": 200,
+      "Bricoleur": 200,
+      "Fa\u00e7omage": 103
+    }
+  },
+  "Skr-Itchi": {
+    "title": "H\u00e9ros de l'Ann\u00e9e",
+    "class": "Iop",
+    "level": 361,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 200,
+      "Forgeron": 200,
+      "Sculpteur": 200,
+      "Cordonnier": 200,
+      "Bijoutier": 200,
+      "Mineur": 200,
+      "Alchimiste": 200,
+      "Tailleur": 200,
+      "Paysan": 200,
+      "P\u00eacheur": 200,
+      "Chasseur": 200,
+      "Forgemage": 200,
+      "Sculptemage": 200,
+      "Fa\u00e7onneur": 200,
+      "Cordomage": 200,
+      "Joaillomage": 200,
+      "Costumage": 200,
+      "Bricoleur": 200,
+      "Fa\u00e7omage": 69
+    }
+  },
+  "Proxes": {
+    "title": "La Machine",
+    "class": "Cra",
+    "level": 474,
+    "alignement": "brakmar",
+    "professions": {
+      "B\u00fbcheron": 17,
+      "Forgeron": 171,
+      "Sculpteur": 137,
+      "Cordonnier": 200,
+      "Bijoutier": 200,
+      "Mineur": 73,
+      "Alchimiste": 192,
+      "Tailleur": 200,
+      "Paysan": 200,
+      "P\u00eacheur": 200,
+      "Chasseur": 188,
+      "Forgemage": 52,
+      "Sculptemage": 51,
+      "Fa\u00e7onneur": 11,
+      "Cordomage": 200,
+      "Joaillomage": 200,
+      "Costumage": 200,
+      "Bricoleur": 19,
+      "Fa\u00e7omage": 37
+    }
+  },
+  "Lilya-lila": {
+    "title": null,
+    "class": "Cra",
+    "level": 181,
+    "alignement": null,
+    "professions": {}
+  },
+  "Bella-Zebuth": {
+    "title": null,
+    "class": "Osamodas",
+    "level": 81,
+    "alignement": null,
+    "professions": {}
+  },
+  "Bad-Cowboys": {
+    "title": "Baron de la Cour Sombre",
+    "class": "Cra",
+    "level": 346,
+    "alignement": "bonta",
+    "professions": {
+      "Forgeron": 2,
+      "Cordonnier": 5,
+      "Bijoutier": 113,
+      "Mineur": 21,
+      "Alchimiste": 5,
+      "Tailleur": 5,
+      "Paysan": 200,
+      "Chasseur": 34,
+      "Forgemage": 5,
+      "Sculptemage": 5,
+      "Fa\u00e7onneur": 13,
+      "Cordomage": 3,
+      "Joaillomage": 118,
+      "Costumage": 5,
+      "Bricoleur": 5
+    }
+  },
+  "Jessabae": {
+    "title": "Blanchisseur de nuit",
+    "class": "Steamer",
+    "level": 251,
+    "alignement": "brakmar",
+    "professions": {
+      "B\u00fbcheron": 184,
+      "Forgeron": 66,
+      "Sculpteur": 82,
+      "Cordonnier": 121,
+      "Bijoutier": 130,
+      "Mineur": 12,
+      "Alchimiste": 200,
+      "Tailleur": 126,
+      "Paysan": 50,
+      "P\u00eacheur": 33,
+      "Chasseur": 200,
+      "Forgemage": 12,
+      "Sculptemage": 64,
+      "Fa\u00e7onneur": 93,
+      "Cordomage": 22,
+      "Joaillomage": 68,
+      "Costumage": 39,
+      "Bricoleur": 200,
+      "Fa\u00e7omage": 15
+    }
+  },
+  "Lexuss-Vdn": {
+    "title": "Blanchisseur de nuit",
+    "class": "Sadida",
+    "level": 363,
+    "alignement": null,
+    "professions": {}
+  },
+  "Spect-Vdn": {
+    "title": null,
+    "class": "Iop",
+    "level": 204,
+    "alignement": "brakmar",
+    "professions": {
+      "Alchimiste": 192,
+      "Paysan": 173
+    }
+  },
+  "Spam-Vdn": {
+    "title": null,
+    "class": "Eniripsa",
+    "level": 207,
+    "alignement": "bonta",
+    "professions": {}
+  },
+  "Lex-Diin": {
+    "title": "Osatopien",
+    "class": "Sacrieur",
+    "level": 367,
+    "alignement": null,
+    "professions": {}
+  },
+  "Mitsuko-o": {
+    "title": "Diamant brut - Saison 2",
+    "class": "Ouginak",
+    "level": 229,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 3,
+      "Forgeron": 2,
+      "Sculpteur": 2,
+      "Cordonnier": 2,
+      "Bijoutier": 2,
+      "Mineur": 5,
+      "Alchimiste": 10,
+      "Tailleur": 2,
+      "Paysan": 50,
+      "P\u00eacheur": 3,
+      "Chasseur": 200,
+      "Fa\u00e7onneur": 1,
+      "Bricoleur": 2
+    }
+  },
+  "Ezpk-Vdn": {
+    "title": null,
+    "class": "Forgelance",
+    "level": 225,
+    "alignement": null,
+    "professions": {}
+  },
+  "Mitsu-kot": {
+    "title": null,
+    "class": "Iop",
+    "level": 217,
+    "alignement": null,
+    "professions": {
+      "Alchimiste": 2
+    }
+  },
+  "Tu-Mark": {
+    "title": null,
+    "class": "Sacrieur",
+    "level": 203,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 2,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Nord-Vdn": {
+    "title": null,
+    "class": "Feca",
+    "level": 222,
+    "alignement": "bonta",
+    "professions": {}
+  },
+  "Vroompoow": {
+    "title": "Enqu\u00eateur",
+    "class": "Sram",
+    "level": 330,
+    "alignement": "brakmar",
+    "professions": {}
+  },
+  "Cort-Aix": {
+    "title": "La Machine",
+    "class": "Cra",
+    "level": 246,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 200,
+      "Forgeron": 167,
+      "Sculpteur": 144,
+      "Cordonnier": 200,
+      "Bijoutier": 200,
+      "Mineur": 200,
+      "Alchimiste": 200,
+      "Tailleur": 200,
+      "Paysan": 200,
+      "P\u00eacheur": 157,
+      "Chasseur": 163,
+      "Forgemage": 200,
+      "Sculptemage": 86,
+      "Fa\u00e7onneur": 173,
+      "Cordomage": 200,
+      "Joaillomage": 200,
+      "Costumage": 200,
+      "Bricoleur": 200,
+      "Fa\u00e7omage": 37
+    }
+  },
+  "Jt-aimetoi": {
+    "title": "Enqu\u00eateur",
+    "class": "Eniripsa",
+    "level": 268,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 48,
+      "Forgeron": 5,
+      "Cordonnier": 6,
+      "Bijoutier": 11,
+      "Mineur": 82,
+      "Alchimiste": 199,
+      "Tailleur": 3,
+      "Paysan": 118,
+      "P\u00eacheur": 72,
+      "Chasseur": 3,
+      "Forgemage": 3,
+      "Sculptemage": 3,
+      "Fa\u00e7onneur": 3,
+      "Bricoleur": 4
+    }
+  },
+  "Master-Vdn": {
+    "title": "Blanchisseur de nuit",
+    "class": "Pandawa",
+    "level": 316,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 2,
+      "Mineur": 1,
+      "Alchimiste": 2,
+      "Paysan": 1,
+      "P\u00eacheur": 1,
+      "Chasseur": 91,
+      "Fa\u00e7onneur": 1
+    }
+  },
+  "Im-Peachou": {
+    "title": null,
+    "class": "Eniripsa",
+    "level": 203,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 2,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Ty-Mike": {
+    "title": null,
+    "class": "Sacrieur",
+    "level": 217,
+    "alignement": null,
+    "professions": {}
+  },
+  "Bob-L-Eponge": {
+    "title": null,
+    "class": "Eniripsa",
+    "level": 200,
+    "alignement": null,
+    "professions": {
+      "Alchimiste": 2
+    }
+  },
+  "Nulax": {
+    "title": "Moissonneur des \u00c2mes",
+    "class": "Iop",
+    "level": 334,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 4,
+      "Bijoutier": 2,
+      "Mineur": 170,
+      "Alchimiste": 20,
+      "Tailleur": 7,
+      "Paysan": 200,
+      "P\u00eacheur": 1,
+      "Chasseur": 200,
+      "Fa\u00e7onneur": 10,
+      "Cordomage": 200,
+      "Joaillomage": 200,
+      "Costumage": 200,
+      "Bricoleur": 1
+    }
+  },
+  "Roi-De-Hm": {
+    "title": null,
+    "class": "Feca",
+    "level": 205,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 2,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Yoplais": {
+    "title": "Chercheur de Dofus",
+    "class": "Iop",
+    "level": 199,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 3,
+      "Forgeron": 2,
+      "Sculpteur": 2,
+      "Cordonnier": 8,
+      "Bijoutier": 34,
+      "Mineur": 74,
+      "Alchimiste": 3,
+      "Tailleur": 38,
+      "Paysan": 3,
+      "P\u00eacheur": 2,
+      "Fa\u00e7onneur": 1,
+      "Costumage": 6,
+      "Bricoleur": 2
+    }
+  },
+  "Daip-Oaiile": {
+    "title": null,
+    "class": "Iop",
+    "level": 209,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 2,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Roi-De-Tyle": {
+    "title": "Agent de Voyage",
+    "class": "Ouginak",
+    "level": 292,
+    "alignement": "brakmar",
+    "professions": {
+      "B\u00fbcheron": 6,
+      "Forgeron": 2,
+      "Bijoutier": 2,
+      "Mineur": 10,
+      "Alchimiste": 43,
+      "Tailleur": 47,
+      "Paysan": 200,
+      "P\u00eacheur": 36,
+      "Chasseur": 200,
+      "Fa\u00e7onneur": 1,
+      "Bricoleur": 48
+    }
+  },
+  "Sadboyz": {
+    "title": "Rmyfau qub usywrub",
+    "class": "Cra",
+    "level": 343,
+    "alignement": "brakmar",
+    "professions": {}
+  },
+  "Tacos-Sans-Sauce": {
+    "title": null,
+    "class": "Huppermage",
+    "level": 199,
+    "alignement": null,
+    "professions": {}
+  },
+  "Iinori": {
+    "title": "Heureux comme Droupik",
+    "class": "Ouginak",
+    "level": 369,
+    "alignement": null,
+    "professions": {}
+  }
+}
