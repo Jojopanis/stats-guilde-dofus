@@ -1,0 +1,535 @@
+{
+  "Galea-hupper": {
+    "title": null,
+    "class": "Huppermage",
+    "level": 239,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 1,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Drubombe": {
+    "title": "Accoucheur survolt\u00e9",
+    "class": "Roublard",
+    "level": 279,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 4,
+      "Mineur": 3,
+      "Alchimiste": 3,
+      "Paysan": 4,
+      "Chasseur": 10
+    }
+  },
+  "Osacrin": {
+    "title": "Heureux comme Droupik",
+    "class": "Osamodas",
+    "level": 306,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 200,
+      "Forgeron": 112,
+      "Sculpteur": 36,
+      "Cordonnier": 149,
+      "Bijoutier": 90,
+      "Mineur": 200,
+      "Alchimiste": 200,
+      "Tailleur": 64,
+      "Paysan": 200,
+      "P\u00eacheur": 200,
+      "Chasseur": 200,
+      "Forgemage": 3,
+      "Fa\u00e7onneur": 74,
+      "Cordomage": 33,
+      "Bricoleur": 200
+    }
+  },
+  "Niniarrows": {
+    "title": null,
+    "class": "Cra",
+    "level": 265,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 1,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Druronces": {
+    "title": "H\u00e9ros de l'Ann\u00e9e",
+    "class": "Sadida",
+    "level": 308,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 1,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Galearonchipss": {
+    "title": null,
+    "class": "Iop",
+    "level": 6,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 1,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Portal-drizzt": {
+    "title": null,
+    "class": "Eliotrope",
+    "level": 229,
+    "alignement": null,
+    "professions": {
+      "Chasseur": 10
+    }
+  },
+  "Explocalo": {
+    "title": "Accoucheur survolt\u00e9",
+    "class": "Roublard",
+    "level": 239,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Mineur": 3,
+      "Alchimiste": 2,
+      "Paysan": 1,
+      "P\u00eacheur": 1,
+      "Fa\u00e7onneur": 1
+    }
+  },
+  "Ayunie": {
+    "title": "Jouet des Immortels",
+    "class": "Zobal",
+    "level": 476,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 2,
+      "Forgeron": 2,
+      "Sculpteur": 32,
+      "Cordonnier": 2,
+      "Bijoutier": 2,
+      "Mineur": 40,
+      "Alchimiste": 200,
+      "Tailleur": 21,
+      "Paysan": 101,
+      "P\u00eacheur": 200,
+      "Chasseur": 200,
+      "Fa\u00e7onneur": 10,
+      "Bricoleur": 31
+    }
+  },
+  "Kisugi": {
+    "title": "Jouet des Immortels",
+    "class": "Huppermage",
+    "level": 496,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 6,
+      "Forgeron": 3,
+      "Sculpteur": 31,
+      "Cordonnier": 2,
+      "Bijoutier": 2,
+      "Mineur": 40,
+      "Alchimiste": 200,
+      "Tailleur": 21,
+      "Paysan": 101,
+      "P\u00eacheur": 2,
+      "Chasseur": 200,
+      "Fa\u00e7onneur": 10,
+      "Bricoleur": 31
+    }
+  },
+  "Galenue": {
+    "title": null,
+    "class": "Enutrof",
+    "level": 212,
+    "alignement": null,
+    "professions": {}
+  },
+  "Lamiyah": {
+    "title": "Insomniaque Chevronn\u00e9",
+    "class": "Pandawa",
+    "level": 499,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 200,
+      "Forgeron": 200,
+      "Sculpteur": 200,
+      "Cordonnier": 200,
+      "Bijoutier": 200,
+      "Mineur": 200,
+      "Alchimiste": 200,
+      "Tailleur": 200,
+      "Paysan": 200,
+      "P\u00eacheur": 200,
+      "Chasseur": 200,
+      "Forgemage": 200,
+      "Sculptemage": 200,
+      "Fa\u00e7onneur": 200,
+      "Cordomage": 200,
+      "Joaillomage": 200,
+      "Costumage": 200,
+      "Bricoleur": 200,
+      "Fa\u00e7omage": 200
+    }
+  },
+  "Caleksteam": {
+    "title": "H\u00e9ros de l'Ann\u00e9e",
+    "class": "Steamer",
+    "level": 208,
+    "alignement": null,
+    "professions": {}
+  },
+  "Caloalcool": {
+    "title": "Enqu\u00eateur",
+    "class": "Pandawa",
+    "level": 373,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 1,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Daneheiir": {
+    "title": "Accoucheur survolt\u00e9",
+    "class": "Cra",
+    "level": 361,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Mineur": 1,
+      "Alchimiste": 1,
+      "Paysan": 1,
+      "P\u00eacheur": 1,
+      "Fa\u00e7onneur": 1
+    }
+  },
+  "Mamie-bombe": {
+    "title": null,
+    "class": "Sadida",
+    "level": 307,
+    "alignement": null,
+    "professions": {}
+  },
+  "Hamiko": {
+    "title": "Jouet des Immortels",
+    "class": "Cra",
+    "level": 490,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 3,
+      "Forgeron": 2,
+      "Sculpteur": 31,
+      "Cordonnier": 2,
+      "Bijoutier": 32,
+      "Mineur": 40,
+      "Alchimiste": 200,
+      "Tailleur": 22,
+      "Paysan": 101,
+      "P\u00eacheur": 2,
+      "Chasseur": 200,
+      "Fa\u00e7onneur": 10,
+      "Cordomage": 3,
+      "Bricoleur": 31
+    }
+  },
+  "Ixidor": {
+    "title": "Gardien des Tortures",
+    "class": "Enutrof",
+    "level": 357,
+    "alignement": "brakmar",
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 21,
+      "Alchimiste": 2,
+      "Tailleur": 2,
+      "Paysan": 80,
+      "P\u00eacheur": 1,
+      "Fa\u00e7onneur": 1
+    }
+  },
+  "Drualcool": {
+    "title": "Enqu\u00eateur",
+    "class": "Pandawa",
+    "level": 295,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 2,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Ecaloar": {
+    "title": "Gardien des Tortures",
+    "class": "Ecaflip",
+    "level": 307,
+    "alignement": "brakmar",
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Forgeron": 28,
+      "Bijoutier": 2,
+      "Mineur": 2,
+      "Alchimiste": 200,
+      "Tailleur": 3,
+      "Paysan": 200,
+      "P\u00eacheur": 1,
+      "Chasseur": 200,
+      "Fa\u00e7onneur": 1
+    }
+  },
+  "Calougi": {
+    "title": "Enqu\u00eateur",
+    "class": "Ouginak",
+    "level": 371,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 15,
+      "Forgeron": 2,
+      "Sculpteur": 2,
+      "Cordonnier": 2,
+      "Bijoutier": 2,
+      "Mineur": 7,
+      "Alchimiste": 12,
+      "Tailleur": 2,
+      "Paysan": 15,
+      "P\u00eacheur": 5,
+      "Fa\u00e7onneur": 1,
+      "Bricoleur": 2
+    }
+  },
+  "Papy-Chris-berzek": {
+    "title": null,
+    "class": "Sacrieur",
+    "level": 239,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 2,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Drizztdofeka": {
+    "title": "Terreur de la Presqu'\u00eele",
+    "class": "Feca",
+    "level": 382,
+    "alignement": "brakmar",
+    "professions": {
+      "Alchimiste": 2,
+      "Paysan": 200,
+      "Chasseur": 186
+    }
+  },
+  "Galea-Feka": {
+    "title": null,
+    "class": "Feca",
+    "level": 206,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 2,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Chris-lance": {
+    "title": null,
+    "class": "Forgelance",
+    "level": 188,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 1,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Nini-colere": {
+    "title": null,
+    "class": "Iop",
+    "level": 264,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Mineur": 1,
+      "Alchimiste": 1,
+      "Paysan": 1,
+      "P\u00eacheur": 1,
+      "Fa\u00e7onneur": 1
+    }
+  },
+  "Druougi": {
+    "title": null,
+    "class": "Ouginak",
+    "level": 332,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 1,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  },
+  "Ixtapa": {
+    "title": "H\u00e9ros de l'Ann\u00e9e",
+    "class": "Sacrieur",
+    "level": 314,
+    "alignement": "brakmar",
+    "professions": {
+      "Alchimiste": 2,
+      "Paysan": 200
+    }
+  },
+  "Piximimax": {
+    "title": "Poursuivant de Mythes",
+    "class": "Cra",
+    "level": 398,
+    "alignement": "brakmar",
+    "professions": {
+      "B\u00fbcheron": 200,
+      "Forgeron": 19,
+      "Sculpteur": 21,
+      "Cordonnier": 21,
+      "Bijoutier": 14,
+      "Mineur": 200,
+      "Alchimiste": 200,
+      "Tailleur": 20,
+      "Paysan": 200,
+      "P\u00eacheur": 200,
+      "Chasseur": 200,
+      "Forgemage": 17,
+      "Sculptemage": 19,
+      "Fa\u00e7onneur": 15,
+      "Cordomage": 17,
+      "Joaillomage": 18,
+      "Costumage": 16,
+      "Bricoleur": 19
+    }
+  },
+  "Miyurie": {
+    "title": "Jouet des Immortels",
+    "class": "Iop",
+    "level": 469,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 2,
+      "Forgeron": 2,
+      "Sculpteur": 31,
+      "Cordonnier": 2,
+      "Bijoutier": 2,
+      "Mineur": 40,
+      "Alchimiste": 200,
+      "Tailleur": 23,
+      "Paysan": 101,
+      "P\u00eacheur": 2,
+      "Chasseur": 200,
+      "Fa\u00e7onneur": 10,
+      "Bricoleur": 31
+    }
+  },
+  "Nini-enut": {
+    "title": null,
+    "class": "Enutrof",
+    "level": 276,
+    "alignement": null,
+    "professions": {}
+  },
+  "Kaynie": {
+    "title": "Accoucheur survolt\u00e9",
+    "class": "Sram",
+    "level": 214,
+    "alignement": null,
+    "professions": {}
+  },
+  "Elennya": {
+    "title": "Jouet des Immortels",
+    "class": "Eniripsa",
+    "level": 492,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 2,
+      "Forgeron": 2,
+      "Sculpteur": 31,
+      "Cordonnier": 2,
+      "Bijoutier": 2,
+      "Mineur": 40,
+      "Alchimiste": 200,
+      "Tailleur": 21,
+      "Paysan": 101,
+      "P\u00eacheur": 2,
+      "Chasseur": 200,
+      "Fa\u00e7onneur": 10,
+      "Bricoleur": 31
+    }
+  },
+  "Achyls": {
+    "title": "Blanchisseur de nuit",
+    "class": "Iop",
+    "level": 369,
+    "alignement": "brakmar",
+    "professions": {
+      "B\u00fbcheron": 102,
+      "Forgeron": 200,
+      "Sculpteur": 3,
+      "Bijoutier": 2,
+      "Mineur": 200,
+      "Alchimiste": 200,
+      "Tailleur": 7,
+      "Paysan": 90,
+      "P\u00eacheur": 200,
+      "Chasseur": 200,
+      "Forgemage": 18,
+      "Sculptemage": 4,
+      "Joaillomage": 3,
+      "Costumage": 3,
+      "Bricoleur": 200
+    }
+  },
+  "Papy-Chris-portails": {
+    "title": null,
+    "class": "Eliotrope",
+    "level": 239,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 1,
+      "Bijoutier": 2,
+      "Mineur": 1,
+      "Alchimiste": 1,
+      "Paysan": 1,
+      "P\u00eacheur": 1
+    }
+  }
+}

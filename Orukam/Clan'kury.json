@@ -1,0 +1,48 @@
+{
+  "Craa-Kozee": {
+    "title": "Chercheur de Dofus",
+    "class": "Cra",
+    "level": 213,
+    "alignement": null,
+    "professions": {
+      "B\u00fbcheron": 17,
+      "Forgeron": 2,
+      "Sculpteur": 2,
+      "Cordonnier": 2,
+      "Bijoutier": 2,
+      "Mineur": 3,
+      "Alchimiste": 10,
+      "Tailleur": 63,
+      "Paysan": 61,
+      "P\u00eacheur": 31,
+      "Chasseur": 50,
+      "Fa\u00e7onneur": 14,
+      "Bricoleur": 2
+    }
+  },
+  "Ac-tion": {
+    "title": "La Machine",
+    "class": "Pandawa",
+    "level": 329,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 9,
+      "Forgeron": 5,
+      "Sculpteur": 4,
+      "Cordonnier": 167,
+      "Bijoutier": 154,
+      "Mineur": 200,
+      "Alchimiste": 104,
+      "Tailleur": 40,
+      "Paysan": 200,
+      "P\u00eacheur": 200,
+      "Chasseur": 200,
+      "Sculptemage": 5,
+      "Fa\u00e7onneur": 150,
+      "Cordomage": 200,
+      "Joaillomage": 200,
+      "Costumage": 200,
+      "Bricoleur": 28
+    }
+  }
+}

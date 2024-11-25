@@ -1,0 +1,49 @@
+{
+  "Davine-Thaleb-Golden": {
+    "title": null,
+    "class": "Huppermage",
+    "level": 220,
+    "alignement": null,
+    "professions": {
+      "Alchimiste": 2
+    }
+  },
+  "Cx-Chemker": {
+    "title": null,
+    "class": "Ouginak",
+    "level": 410,
+    "alignement": "bonta",
+    "professions": {}
+  },
+  "Cx-Zboba": {
+    "title": "Protecteur des Protecteurs",
+    "class": "Enutrof",
+    "level": 454,
+    "alignement": "bonta",
+    "professions": {
+      "B\u00fbcheron": 3,
+      "Forgeron": 3,
+      "Sculpteur": 32,
+      "Cordonnier": 2,
+      "Bijoutier": 160,
+      "Mineur": 40,
+      "Alchimiste": 41,
+      "Tailleur": 137,
+      "Paysan": 200,
+      "P\u00eacheur": 2,
+      "Fa\u00e7onneur": 11,
+      "Joaillomage": 200,
+      "Costumage": 200,
+      "Bricoleur": 32
+    }
+  },
+  "Ponda-Lai-Y": {
+    "title": null,
+    "class": "Pandawa",
+    "level": 199,
+    "alignement": null,
+    "professions": {
+      "Alchimiste": 2
+    }
+  }
+}

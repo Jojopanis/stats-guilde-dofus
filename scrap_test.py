@@ -1,5 +1,6 @@
 import requests
 import json
+from os.path import exists
 from time import sleep
 from tqdm import tqdm
 from bs4 import BeautifulSoup
@@ -71,13 +72,16 @@ class Guild:
             
     def generate_json(self):
         guild_doc = {}
-        for i in tqdm(self.members_list.keys()):
-            member = self.generate_member(i)
-            guild_doc[i] = member.get_infos()
-            sleep(1.5)
-        with open(f'{self.server}/{self.name.strip()}.json', 'w') as f:
-            json.dump(guild_doc, f, indent=2)
-        return f'{self.name} done'
+        if not exists(f'{self.server}/{self.name.strip()}.json'):
+            for i in tqdm(self.members_list.keys()):
+                member = self.generate_member(i)
+                guild_doc[i] = member.get_infos()
+                sleep(1.5)
+            with open(f'{self.server}/{self.name.strip()}.json', 'w') as f:
+                json.dump(guild_doc, f, indent=2)
+            return f'{self.name} done'
+        else:
+            return f'{self.name} already exists'
         
 class Perso:
 
